@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAS TEAM Consulting Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a href="index.html"><img src="./Das_Team_photos/dasteamlogo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav> 
+<h1 class="orange">Contact Us</h1>
+    </section>
+
+    <!-- ---------- contact us content ------------ -->
+    
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11989.505392841247!2d69.2751431!3d41.3006757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x41e039c4c586bf96!2sDAS%20TEAM%20CONSULTING!5e0!3m2!1sen!2s!4v1639544012350!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>15 Shakhrisabz Street</h5>
+                        <p class="orange">Mirabad Avenue, Tashkent</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+998 99 545 61 42</h5>
+                        <p class="orange">Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-mail-bulk"></i>
+                    <span>
+                        <h5>dasteam98@gmail.com</h5>
+                        <p class="orange">Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form.handler.php" method="POST">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ------ Footer ------- -->
+    <section class="footer">
+        <h1 class="orange">About Us</h1>
+        <p><b class="orange">DAS TEAM</b> is an active youth team that seeks to implement new ideas and projects. <b class="orange">Over the past 3 years</b>, we have been successfully helping <b class="orange">more than 500 students</b> to have the opportunity to study at <b class="orange">foreign universities</b>, participate in <b class="orange">summer vacations</b> and <b class="orange">Work and Travel programs.</b></p>
+        <br>
+            <br>    
+            <h3 class="orange">Follow Us</h3>
+        <div class="icons">
+                <i class="fa fa-facebook  fa-2x"></i>
+                <i class="fa fa-instagram  fa-2x"></i>
+                <i class="fa fa-telegram  fa-2x"></i>
+                <i class="fa fa-youtube  fa-2x"></i>
+            </div>
+        
+            
+            <br>
+            <br>
+            <p>
+                Made with &emsp;<i class="fa fa-heart orange"></i>&emsp; by &emsp;<a class="orange">Mukhammadjon Nazarov</a>&emsp;in 2021.
+            </p>
+        </section>
+    
+<!-- -------- javascript for Toggle Menu--------- -->
+    <script>
+        var navLinks = document.querySelector("#navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

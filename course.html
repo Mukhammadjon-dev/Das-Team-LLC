@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAS TEAM Consulting Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a href="index.html"><img src="./Das_Team_photos/dasteamlogo.png"> </a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav> 
+<h1 class="orange">Our Courses</h1>
+    </section>
+
+<!-- ------- course -------- -->
+<section class="course">
+    <h1 class="orange">Courses We Offer</h1>
+    <p><b class="orange">DAS TEAM</b> is an active youth team that seeks to implement new ideas and projects. <b class="orange">Over the past 3 years</b>, we have been successfully helping <b class="orange">more than 500 students</b> to have the opportunity to study at <b class="orange">foreign universities</b>, participate in <b class="orange">summer vacations</b> and <b class="orange">Work and Travel programs.</b></p>
+    <div class="row">
+        <div class="course-col">
+            <h3 class="orange">Master Degree</h3>
+            <p>We have partnership with more than 20 International Universities. Most of them offer high quality education in on demand spheres. In Addition, we also help students to get rewarded with international scholarships.</p>
+        </div>
+        <div class="course-col">
+            <h3 class="orange">Bachelor Degree</h3>
+            <p>Bachelor's degree is our main service in education sphere. We cowork with foriegn universities to offer our students to study their bachelor's degree in developed countries such as Germany, United Kingdom, Poland, Turkiye, South Korea and China.</p>
+        </div>
+        <div class="course-col">
+            <h3 class="orange">Other Events</h3>
+            <p>Apart from Bachelor and Master degree programs, we also offer students to take part in fully covered International Summer Schools, Youth Conferences and Work and Travel (in Germany) programs.</p>
+        </div>
+    </div>
+    </section>
+    <!-- -------facilities -------- -->
+<section class="facilities">
+    <h1 class="orange">Special Programs</h1>
+    <p>Our service is not limited with Bachelor and Master degree programs. We also help students to use their time effectively at any situation, by offering them to take part in different kind of offline and online programs</p>
+<div class="row">
+<div class="facilities-col">
+    <img src="./Das_Team_photos/southkorea.jpg">
+    <h3 class="orange">Summer Schools</h3>
+    <p>In summer holidays, many student have enough free time, that's why we try to offer a variety of summer schools and internship programms, especially in the South Korea. GKS for Central Asian Undergraduate Student 2019 is an example.</p>
+</div>
+<div class="facilities-col">
+    <img src="./Das_Team_photos/onlinecourse.jpg">
+    <h3 class="orange">Language Courses</h3>
+    <p>Although many students prefer to learn English as their second language, we recommend students to learn other foriegn languages such as German, French and Arabic, as it gives many opportunities to study there. </p>
+</div>
+<div class="facilities-col">
+    <img src="./Das_Team_photos/online.jpg">
+    <h3 class="orange">Online Trainings</h3>
+    <p>During the quarantine period, many students managed to successfully finish several useful online courses with the help of our consulting agency. Still today, we offer different kind of online programs for people who don't have time for offline studies.</p>
+</div>
+</div>
+</section>
+
+    <!-- ------ Footer ------- -->
+    <section class="footer">
+        <h1 class="orange">About Us</h1>
+        <p><b class="orange">DAS TEAM</b> is an active youth team that seeks to implement new ideas and projects. <b class="orange">Over the past 3 years</b>, we have been successfully helping <b class="orange">more than 500 students</b> to have the opportunity to study at <b class="orange">foreign universities</b>, participate in <b class="orange">summer vacations</b> and <b class="orange">Work and Travel programs.</b></p>
+        <br>
+            <br>    
+            <h3 class="orange">Follow Us</h3>
+        <div class="icons">
+                <i class="fa fa-facebook  fa-2x"></i>
+                <i class="fa fa-instagram  fa-2x"></i>
+                <i class="fa fa-telegram  fa-2x"></i>
+                <i class="fa fa-youtube  fa-2x"></i>
+            </div>
+        
+            
+            <br>
+            <br>
+            <p>
+                Made with &emsp;<i class="fa fa-heart orange"></i>&emsp; by &emsp;<a class="orange">Mukhammadjon Nazarov</a>&emsp;in 2021.
+            </p>
+        </section>
+
+<!-- -------- javascript for Toggle Menu--------- -->
+    <script>
+        var navLinks = document.querySelector("#navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
